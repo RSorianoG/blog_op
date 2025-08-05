@@ -1,0 +1,19 @@
+name: blog_op
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - requests
+  - beautifulsoup4
+  - pandas
+  - jupyterlab      # Entorno Jupyter completo (notebooks + más)
+  - matplotlib
+  - seaborn
+  - nltk
+  - scikit-learn
+  - tqdm
+  - ipython
+  - pip
+  - pip:
+      - snscrape
